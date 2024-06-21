@@ -1,0 +1,19 @@
+{
+  "name": "task-01",
+  "version": "1.0.0",
+  "description": "EventEmitter & Buffer & Streams",
+  "main": "withTime.ts",
+  "scripts": {
+    "start": "npx ts-node csvReader.ts",
+    "//": "for Mac and Ubuntu runing command ^ should contain '&&' instead of '|'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oleksandr_Lotsman",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.9"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}
